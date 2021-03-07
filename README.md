@@ -1,25 +1,16 @@
-# Barnacle
-This documents the various -barnacle repositories and how they connect.
+# Barnacle (aka Heijunka)
+A heijunka is a Kanban board with several projects shown at the same time. The goal is to provide an interface where you can analyse the state of Kanban for the whole organization, teams and individuals. It's main usage is to integrate changes to Kanban boards in other systems. That said, you can use it as a Kanban board on its own as well (and that's what I'm doing as well).
 
-As a user, you get an application, which provides a Heijunka board. The corresponding changes are stored as events in a backend. Changes by one frontend are forwarded - via the backend - to all connected frontends. You can run the application as a single-page application or install as a application.
+If you just want the software, you can get it either as an [application to install on a local machine](https://github.com/axelkr/solid-barnacle) or as a [single-page application to install on a server](https://github.com/axelkr/sterling-barnacle). Software architecture is documented in [SoftwareArchitecture.md](./SoftwareArchitecture.md).
 
-# choicest-barnacle
-Provides type for ObjectEvent, which are used to transfer individual changes between frontend and backend.
+This also serves as a playground application for me to apply product management techniques. You find more details at [ProductManagement.md](./ProductManagement.md).
 
-# happy-barnacle
-Backend server, which provides a REST API and server-sent events for ObjectEvent. Changes are stored locally in a database.
+## Features
+- Define per project a set of stages
+- Changes by a user are propagated to other users as well.
 
-# prime-barnacle
-Frontend component, which connects to the backend and takes care of connectivity issues of the network.
-
-# outstanding-barnacle
-Domain model of a Heijunka board. Each change is an ObjectEvent.
-
-# eximious-barnacle
-Angular webpage, which stores changes to the Heijunka board as ObjectEvents in the backend.
-
-# sterling-barnacle
-Packages the backend and the webpage into a single page application.
-
-# solid-barnacle
-Packages the backend and the webpage into a installable application.
+## Milestones
+### 1.0 Eat my own dogfood
+- Software can be installed on Debian and Windows as well as hosted on a web server as a single page application. 
+- User can setup new projects
+- User can add new Kanban cards in a project and moving it through the stages
