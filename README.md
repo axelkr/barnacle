@@ -10,6 +10,9 @@ This also serves as a playground application for me to apply product management 
 - Changes by a user are propagated to other users as well.
 
 ## Milestones
+### 1.1 Cumulative flow diagram
+- User sees a projects cumulative flow diagram (CFD) on the project page.
+
 ### 1.0 Eat my own dogfood
 - Software can be installed on Debian and Windows as well as hosted on a web server as a single page application. 
 - User can setup new projects
