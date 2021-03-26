@@ -10,6 +10,9 @@ This also serves as a playground application for me to apply product management 
 - Changes by a user are propagated to other users as well.
 
 ## Milestones
+### 1.2 Contexts
+- User can define contexts and filter the displayed cards based on them.
+
 ### 1.1 Cumulative flow diagram
 - User sees a projects cumulative flow diagram (CFD) on the project page.
 
