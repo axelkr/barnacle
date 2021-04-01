@@ -26,3 +26,6 @@ Packages the backend and the webpage into a single page application.
 
 ### solid-barnacle
 Packages the backend and the webpage into a installable application.
+
+### accomplished-barnacle
+commandline application for importing project information from other systems.
