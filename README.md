@@ -1,5 +1,5 @@
 # Barnacle (aka Heijunka)
-A heijunka is a Kanban board with several projects shown at the same time. The goal is to provide an interface where you can analyse the state of Kanban for the whole organization, teams and individuals. It's main usage is to integrate changes to Kanban boards in other systems. That said, you can use it as a Kanban board on its own as well (and that's what I'm doing as well).
+A heijunka is a Kanban board with several projects shown at the same time. The goal is to provide an interface where you can analyse the state of Kanban for the whole organization, teams and individuals. It's main usage is by integrating changes to Kanban boards from other systems and to continue using those other systems as planned. That said, you can use it as a Kanban board on its own as well (and that's what I'm doing).
 
 If you just want the software, you can get it either as an [application to install on a local machine](https://github.com/axelkr/solid-barnacle) or as a [single-page application to install on a server](https://github.com/axelkr/sterling-barnacle). Software architecture is documented in [SoftwareArchitecture.md](./SoftwareArchitecture.md).
 
