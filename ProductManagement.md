@@ -7,3 +7,4 @@ Integrate and display Kanban boards from several sources. Visualize Kanban metri
 
 ## Documents
 * [User story map](./ProductManagement/UserStoryMap.md)
+* [Emotions](./ProductManagement/Emotions.md)
