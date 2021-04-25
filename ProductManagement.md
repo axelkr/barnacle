@@ -5,6 +5,11 @@ Each part of an organization, be it business units, teams or individuals, can an
 ## Mission
 Integrate and display Kanban boards from several sources. Visualize Kanban metrics on all levels.
 
+## Personas
+* [Individual Contributor](./ProductManagement/IndividualContributor.pdf)
+* [Team](./ProductManagement/Team.pdf)
+* [Team of Teams](./ProductManagement/TeamOfTeams.pdf)
+
 ## Documents
 * [User story map](./ProductManagement/UserStoryMap.md)
 * [Emotions](./ProductManagement/Emotions.md)
